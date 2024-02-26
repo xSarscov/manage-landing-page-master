@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    
+    .wrapper {
+        @apply w-[90%] mx-auto overflow-hidden max-w-screen-xl;
+    }
+
+    .btn {
+        @apply bg-bright-red text-vary-light-gray block w-max py-4 px-12 rounded-full
+    }
+
+}
