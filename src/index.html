@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -24,7 +25,7 @@
             <input type="checkbox" id="menu" class="peer hidden">
             <label for="menu" class="bg-open-menu w-6 h-5 bg-cover bg-center cursor-pointer peer-checked:bg-close-menu transition-all z-50 md:hidden"></label>
     
-            <div class="fixed inset-0 bg-gradient-to-b from-white/70 to-black/70 translate-x-full peer-checked:translate-x-0 transition-transform md:static md:translate-x-0 md:bg-none">
+            <div class="fixed inset-0 bg-gradient-to-b from-white/70 to-black/70 translate-x-full peer-checked:translate-x-0 transition-transform z-40 md:static md:translate-x-0 md:bg-none">
                 <ul class="absolute inset-x-0 top-24 p-12 bg-white w-[90%] mx-auto rounded-md h-max text-center grid gap-6 font-bold text-dark-blue shadow-2xl md:w-max md:bg-transparent md:p-0 md:grid-flow-col md:static">
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Product</a></li>
@@ -34,11 +35,150 @@
                 </ul>
             </div>
             
-            <a href="#" class="btn shadow-sm shadow-bright-red/30 hidden lg:block">Get Started</a>
+            <a href="#" class="btn shadow-sm shadow-bright-red/30 hidden py-3 lg:block">Get Started</a>
         </nav>
+
+        <section class="wrapper grid gap-8 justify-items-center items-center pb-12 md:grid-cols-2 md:py-24">
+            <img class="w-full max-w-lg md:order-1" src="./images/illustration-intro.svg" alt="" srcset="">
+
+            <article class="text-center space-y-6 md:text-left md:space-y-8">
+                <h1 class="text-4xl font-bold text-very-dark-blue md:text-5xl">Bring everyone together to build better products.</h1>
+                <p class="text-dark-grayish-blue">
+                    Manage makes it simple for software teams to plan day-to-day tasks while keeping the larger team goals in view.
+                </p>
+                <a href="#" class="btn mx-auto shadow-xl shadow-bright-red/30 md:mx-0">Get Started</a>
+            </article>
+        </section>
 
     </header>
 
-</body>
+    <figure class="absolute inset-0 overflow-hidden pointer-events-none">
+        <img src="./images/bg-tablet-pattern.svg" class="absolute w-full -z-10 -top-24 -right-1/4 max-w-2xl">
+    </figure>
 
+    <main>
+        <section class="wrapper text-center py-24 grid gap-12 md:grid-cols-2 md:text-left">
+            <article>
+                <h2 class="text-3xl font-bold text-very-dark-blue mb-6 md:text-4xl">What’s different about Manage?</h2>
+                <p class="text-dark-grayish-blue">
+                    Manage provides all the functionality your team needs, without 
+                    the complexity. Our software is tailor-made for modern digital 
+                    product teams. 
+                </p>
+            </article>
+
+            <div class="grid gap-12">
+                <article class="space-y-4 md:space-y-6">
+                    <p class="bg-very-pale-red rounded-l-full font-bold flex items-center md:bg-transparent">
+                        <span class="bg-bright-red text-white px-6 rounded-full py-2">01</span>
+                        <span class="flex-1 p-2">Track company-wide progress</span>
+                    </p>
+                    <p class="text-dark-grayish-blue text-left">
+                        See how your day-to-day tasks fit into the wider vision. Go from 
+                        tracking progress at the milestone level all the way done to the 
+                        smallest of details. Never lose sight of the bigger picture again.
+                    </p>
+                </article>
+            </div>
+
+            <div class="grid gap-12">
+                <article class="space-y-4 md:space-y-6">
+                    <p class="bg-very-pale-red rounded-l-full font-bold flex items-center md:bg-transparent">
+                        <span class="bg-bright-red text-white px-6 rounded-full py-2">02</span>
+                        <span class="flex-1 p-2">Advanced built-in reports</span>
+                    </p>
+                    <p class="text-dark-grayish-blue text-left">
+                        Set internal delivery estimates and track progress toward company 
+                        goals. Our customisable dashboard helps you build out the reports 
+                        you need to keep key stakeholders informed.
+                    </p>
+                </article>
+            </div>
+
+            <div class="grid gap-12">
+                <article class="space-y-4 md:space-y-6">
+                    <p class="bg-very-pale-red rounded-l-full font-bold flex items-center md:bg-transparent">
+                        <span class="bg-bright-red text-white px-6 rounded-full py-2">03</span>
+                        <span class="flex-1 p-2">Everything you need in one place</span>
+                    </p>
+                    <p class="text-dark-grayish-blue text-left">
+                        Stop jumping from one service to another to communicate, store files, 
+                        track tasks and share documents. Manage offers an all-in-one team 
+                        productivity solution.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <section class="wrapper text-center py-24 max-w-lg mx-auto md:max-w-xl">
+            <h2 class="text-3xl text-very-dark-blue md:text-4xl">What they’ve said</h2>
+            <div class="mt-24 mb-14">
+                <article class="bg-vary-light-gray pt-16 pb-3 px-1 relative">
+                    <img class="absolute w-24 aspect-square -top-12 inset-x-0 mx-auto" src="./images/avatar-ali.png" alt="" srcset="">
+                    <h3 class="text-xl mb-4 pt-2 font-bold text-very-dark-blue">Ali Bravo</h3>
+                    <p class="text-dark-grayish-blue">
+                        “We have been able to cancel so many other subscriptions since using 
+                        Manage. There is no more cross-channel confusion and everyone is much 
+                        more focused.”
+                    </p>
+                </article>
+            </div>
+
+            <a href="#" class="btn mx-auto shadow-xl shadow-bright-red/30">Get Started</a>
+
+        </section>
+
+        <section class="bg-bright-red font-bold">
+            <div class="wrapper py-24 text-center grid gap-6 md:grid-cols-[40%_40%] md:justify-between md:items-center md:text-left">
+                <h2 class="text-4xl text-very-pale-red">Simplify how your team works today</h2>
+                <a class="btn text-bright-red bg-vary-light-gray mx-auto md:mx-0 md:justify-self-end" href="#">Get Started</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-very-dark-blue py-24 ">
+        <section class="wrapper grid gap-12 justify-items-center footer-area md:footer-area-md md:grid-cols-3 md:justify-items-stretch">
+            <form class="flex gap-4 w-full min-w-[100px] [grid-area:form]">
+                <input type="email" placeholder="Updates in your inbox..." class="min-w-[50px] flex-1 rounded-full px-4">
+                <input type="submit" value="GO" class="py-3 px-8 bg-bright-red rounded-full text-white">
+            </form>
+
+            <nav class="grid grid-cols-[max-content_max-content] gap-y-4 justify-between text-white w-4/5 [grid-area:navigation] md:w-full">
+                <a href="#">Home</a>
+                <a href="#">Pricing</a>
+                <a href="#">Products</a>
+                <a href="#">About Us</a>
+                <a href="#">Careers</a>
+                <a href="#">Community</a>
+                <a href="#">Privacy Policy</a>
+            </nav>
+
+            <div class="flex flex-wrap gap-4 justify-between w-full [grid-area:social-media]">
+                <a href="#">
+                    <img class="w-8" src="./images/icon-facebook.svg">
+                </a>
+                <a href="#">
+                    <img class="w-8" src="./images/icon-youtube.svg">
+                </a>
+                <a href="#">
+                    <img class="w-8" src="./images/icon-twitter.svg">
+                </a>
+                <a href="#">
+                    <img class="w-8" src="./images/icon-pinterest.svg">
+                </a>
+                <a href="#">
+                    <img class="w-8" src="./images/icon-instagram.svg">
+                </a>
+            </div>
+
+            <a href="#" class="[grid-area:logo]">
+                <img src="./images/logo-white.svg">
+            </a>
+
+            <p class="text-dark-grayish-blue text-center [grid-area:copyright] md:text-right">Copyright 2020. All Rights Reserved</p>
+        </section>
+    </footer>
+
+</body>
 </html>
