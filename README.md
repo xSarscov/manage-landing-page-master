@@ -52,7 +52,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/xSarscov)
+- Frontend Mentor - [@xSarscov](https://www.frontendmentor.io/profile/xSarscov)
 - IG - [@ernestox91](https://www.instagram.com/ernestox91/)
 
 ## Acknowledgments
